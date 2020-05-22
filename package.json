@@ -1,0 +1,20 @@
+{
+  "name": "express-ws-boiler",
+  "version": "1.0.0",
+  "description": "An easy to use express and ws boiler plate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.3.0"
+  }
+}
