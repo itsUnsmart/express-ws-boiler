@@ -51,16 +51,14 @@ module.exports.generateError = ({ error, reasons = [] }) => {
       .join('_')
       .toLowerCase(),
     context_info: {
-      errors: [
-        reasons.map(({ reason, message, data, location }) => {
-          return {
-            reason,
-            message,
-            data: data || null,
-            location
-          }
-        })
-      ]
+      errors: reasons.map(({ reason, message, data, location }) => {
+        return {
+          reason,
+          message,
+          data: data || null,
+          location
+        }
+      })
     }
   }
 }

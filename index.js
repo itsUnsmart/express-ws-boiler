@@ -1,1 +1,2 @@
 require('./sockets')
+require('./web')
